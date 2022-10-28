@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form-preset>
+  <field2 label="お問い合わせ内容" type="textarea" name="message" required="required"></field2>
+  <field2 label="お名前（漢字）" type="text" name="name-kanji" required="required"></field2>
+  <field2 label="お名前（フリガナ）" type="text" name="kana" required="required"></field2>
+  <field2 label="性別" type="radio" name="gender" required="required">
+    <option value="male" checked="true">男</option>
+    <option value="fmale">女</option>
+  </field2>
+  <field2 label="血液型" type="select" name="blood" size="4">
+    <option value="A" checked="true">A型</option>
+    <option value="B">B型</option>
+    <option value="O">O型</option>
+    <option value="AB">AB型</option>
+  </field2>
+  <field2 label="時間帯" type="select" name="time-zone">
+    <option value="AM">午前</option>
+    <option value="PM" checked="true">午後</option>
+  </field2>
+  <field2 label="ご購入日" type="date" name="purchase-date"></field2>
+  <field2 label="ご希望日" type="date" name="hope-date"></field2>
+  <field2 label="ご希望時間" type="time" name="hope-time"></field2>
+  <field2 label="ご予約日" type="date" name="reserve-date"></field2>
+  <field2 label="ご利用人数" type="number" name="person"></field2>
+  <field2 label="ご利用部屋数" type="number" name="room"></field2>
+  <field2 label="E-Mail" type="email" name="email" required="required"></field2>
+  <field2 label="電話番号（半角）" type="tel" name="tel"></field2>
+  <field2 label="FAX番号（半角）" type="tel" name="fax"></field2>
+</form-preset>
