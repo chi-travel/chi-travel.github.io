@@ -14,6 +14,7 @@
   }
 ]]><media type="pc"><![CDATA[
   &> .extra {
+    width : 529px;
     min-height : 64px;
   }
 
@@ -30,7 +31,7 @@
         <p class="tel paragraph">MAIL：chi34043988@yahoo.co.jp</p>
         <p class="address paragraph">
           <b class="character">〒135-0042　東京都</b>
-          <b class="character">江東区場2-1-1</b>
+          <b class="character">江東区場1-4-12名古路木場ビル2F</b>
         </p>
         <p class="address paragraph">
           <b class="character">旅行業登録：登録№東京都知事登録旅行業第3-4403号</b>
